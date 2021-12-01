@@ -2,6 +2,7 @@ version: 0.2
 
 env:
   variables:
+    CXSERVER: "https://7b9c3c8d.ngrok.io"
     CX_FLOW_BUG_TRACKER: "None"
     CX_FLOW_BUG_TRACKER_IMPL: ${CX_FLOW_BUG_TRACKER}
     CX_FLOW_EXE: "java -jar /app/cx-flow.jar"
